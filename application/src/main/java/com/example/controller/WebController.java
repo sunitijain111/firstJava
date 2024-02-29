@@ -27,7 +27,6 @@ public class WebController {
     private String getUserInfomation(@RequestParam String name){
         return userService.getUserInfo(name);
    }
-   //pushing
 }
 
 
